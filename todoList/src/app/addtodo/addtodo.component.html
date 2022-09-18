@@ -1,0 +1,8 @@
+
+<form #todoForm="ngForm" style="margin-bottom: 10px;" >
+    <input type="text" placeholder="Enter your To Do" class="form-control" 
+        required #etodo="ngModel" ngModel name="etodo" (keyup.enter)="addToDo(todoForm.value)"
+    >
+  
+    <!-- <button type="submit">Add</button> -->
+</form>

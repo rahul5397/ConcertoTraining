@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "etodo": "monthly payment",
+      "id": 1
+    },
+    {
+      "etodo": "credit card payment",
+      "id": 2
+    },
+    {
+      "etodo": "rahul",
+      "id": 3
+    }
+  ]
+}

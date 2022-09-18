@@ -1,0 +1,12 @@
+<!-- <p>todos works!</p> -->
+<!-- <p>display data from json </p> -->
+<div *ngIf="todos.length > 0">
+    <div *ngFor="let todo of todos">
+        <app-todo [todo]="todo" class="todo" (todocheckbox)="todocheckbox($event)" >
+            <button (click)="delete(todo)" style="float:right" class="btn-sm" >Delete</button>
+        </app-todo>
+    </div>
+</div>
+<div *ngIf="todos.length == 0">
+    <h2>No To Do's Added yet</h2>
+</div>

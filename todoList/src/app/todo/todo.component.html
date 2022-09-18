@@ -1,0 +1,10 @@
+<!-- <p>todo works!</p>
+<h5>todo is child of todos</h5> -->
+
+<div class="form-check" style="margin-bottom: 10px;">
+    <input class="form-check-input" type="checkbox" id="{{todo.id}}" (click)="checkbox()">
+    <label class="form-check-label" for="{{todo.id}}" > 
+        {{todo.etodo}} 
+    </label>
+    <ng-content></ng-content>
+</div>
